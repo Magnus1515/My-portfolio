@@ -1,0 +1,306 @@
+/* Barra de navegacion */
+
+.navbar{
+    padding: 2rem;
+    /* color: white;
+    background-color: #45a29e; */
+
+}   
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+
+}
+@media screen and (max-width: 767px) {
+    .navbar-brand{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .overlay p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .overlay p{
+        font-size: 40px;
+    }
+}
+
+/* Experiencia */
+.experiencia{
+   color: black;
+   background-color: white; 
+}
+
+/* estilos generales */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.seccion-texto{
+    font-size:1.3rem;
+    line-height: 2.2rem;
+}
+
+.seccion-discripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
+
+}
+.texto-negro{
+    color: black;
+}
+
+.texto-blanco{
+    color: white;
+}
+
+.btn-info{
+    font-size: 1.1rem;
+    margin-top: 40px;
+    font-weight: bold;
+}
+p{
+    font-size: 1.1rem;
+}
+
+h3{
+    font-family: 'IBM Plex Mono', monospace;
+}
+/* seccion hero */
+
+.hero{
+    background-color: black;
+    min-height: 450px;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+}
+
+.seccion-clara{
+    color:black;
+    background-color:white ;
+}
+
+.seccion-oscura{
+    color:white;
+    background-color:#1b1b32 ;
+}
+.seccion-dark{
+    color: white;
+    background-color: black;
+}
+.seccion-cyan{
+    color: white;
+    background-color: #45a29e;
+}
+.hero-principal{
+    padding: 3rem;
+}
+.hero-imagen-desarrollador {
+    width: 250px;
+    height: 300px;
+    margin:20px;
+
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color:white;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Sobre mi */
+.about-me {
+    height: 600px;
+    padding: 10px;
+}
+
+.about-me .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+  
+/* Experiencia */
+.experiencia{
+    padding: 40px 120px 60px;
+    
+}
+.experiencia .columna{
+    padding: 20px;
+    border: 2px solid #8080804d;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.25s ease-in; 
+
+}
+
+.experiencia .columna:hover{
+    color: black;
+    background-color: #f5f6f7;;
+}
+.experiencia i{
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color:#0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+.experiencia-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.badges-contenedor {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badge{
+    margin: 5px;
+}
+
+.experiencia-hr{
+    margin-bottom: 50px;
+}
+
+  
+/* Proyectos */
+
+.proyectos-recientes{
+    padding: 40px;
+
+}
+
+.proyectos-recientes img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease-in;
+}
+
+.proyectos-contenedor{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay{
+    transition: all 0.2s ease-in;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+
+.proyecto{
+    position: relative;
+}
+.proyecto:hover img{
+    opacity: 0.2;
+}
+.proyecto:hover .overlay{
+    opacity: 1;
+}
+
+.overlay .iconos-contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.overlay i{
+    color: white;
+    font-size: 60px;
+    
+   
+
+}
+
+/* Footer */
+ footer{
+    min-height: 500px;
+
+ }
+ .footer-logo{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+ }
+
+ .footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'IBM Plex Mono', monospace;
+ }
+ .iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin:10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+ }
+
+ .iconos-redes-sociales i{
+    color:white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+ }
+
+ .iconos-redes-sociales a:hover{
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+    
+}
+.iconos-redes-sociales a:hover i{
+    color: black;
+}
+
+.derechos-de-autor{
+    font-size: 15px;
+    color: #0a0a23;
+    padding: 20px;
+    
+}
+
+.hero-inferior-imagen{
+    height: 50%;
+    width: 50%;
+    margin-bottom: 50px;
+    margin-top: -100px;
+}
