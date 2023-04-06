@@ -1,2 +1,3 @@
 # My-portfolio
-Depo for my porfolio website
+
+Repo for the code for my porfolio website.
